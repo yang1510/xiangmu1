@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".setting.Setting">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/setting_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/Pink"></androidx.appcompat.widget.Toolbar>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="@string/jb_setting"
+        android:textColor="@color/Blue"
+        android:textSize="18dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/sp_10">
+
+        <TextView
+            android:id="@+id/setting_wutu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="无图模式"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/dp_20" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/setting_wutu"
+            android:layout_marginTop="10dp"
+            android:text="开启后在非Wifi环境下不加载图片"
+
+            android:textSize="@dimen/dp_16" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/sp_10">
+
+        <TextView
+            android:id="@+id/setting_zhiding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="是否显示首页置顶文章"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/dp_20" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/setting_zhiding"
+            android:layout_marginTop="10dp"
+            android:text="开启后将不会显示首页置顶文章"
+
+            android:textSize="@dimen/dp_16" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/sp_10">
+
+        <TextView
+            android:id="@+id/setting_night"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="自动切换夜间模式"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/dp_20" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/setting_night"
+            android:layout_marginTop="10dp"
+            android:text="设置切换的时间"
+
+            android:textSize="@dimen/dp_16" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:text="其他设置"
+        android:textColor="@color/Blue"
+        android:textSize="18dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/sp_10">
+
+        <TextView
+            android:id="@+id/setting_theme"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主题颜色"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/dp_20" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/setting_theme"
+            android:layout_marginTop="10dp"
+            android:text="自定义主题颜色"
+
+            android:textSize="@dimen/dp_16" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/sp_10">
+
+        <TextView
+            android:id="@+id/setting_navigation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="是否显示首页置顶文章"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/dp_20" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/setting_navigation"
+            android:layout_marginTop="10dp"
+            android:text="开启后将不会显示首页置顶文章"
+
+            android:textSize="@dimen/dp_16" />
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/sp_10">
+
+        <TextView
+            android:id="@+id/setting_huan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="主题颜色"
+            android:textColor="@color/Black"
+            android:textSize="@dimen/dp_20" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/setting_huan"
+            android:layout_marginTop="10dp"
+            android:text="自定义主题颜色"
+
+            android:textSize="@dimen/dp_16" />
+    </RelativeLayout>
+
+</LinearLayout>

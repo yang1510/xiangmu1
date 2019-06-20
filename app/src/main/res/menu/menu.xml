@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/collect"
+        android:icon="@drawable/ic_like_not"
+        android:title="@string/nv_collect"></item>
+    <item
+        android:id="@+id/todo"
+        android:icon="@drawable/ic_todo_default_24dp"
+        android:title="@string/nv_todo"></item>
+    <item
+        android:id="@+id/night"
+        android:icon="@drawable/ic_night_24dp"
+        android:title="@string/nv_night"></item>
+    <item
+        android:id="@+id/setting"
+        android:icon="@drawable/ic_setting_24dp"
+        android:title="@string/nv_setting"></item>
+    <item
+        android:id="@+id/about"
+        android:icon="@drawable/ic_about_us_white_24dp"
+        android:title="@string/nv_about"></item>
+    <item
+        android:id="@+id/out"
+        android:visible="false"
+        android:icon="@drawable/ic_logout_white_24dp"
+        android:title="@string/nv_out"></item>
+
+
+</menu>

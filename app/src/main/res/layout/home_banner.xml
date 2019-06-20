@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp">
+
+<com.youth.banner.Banner
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:id="@+id/banner"
+    ></com.youth.banner.Banner>
+
+    <!--<TextView-->
+        <!--android:id="@+id/banner_text"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="123"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:textSize="20dp"/>-->
+
+</RelativeLayout>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragment.NaviFragment">
+
+    <q.rorbin.verticaltablayout.VerticalTabLayout
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:id="@+id/navi_tab"
+        android:background="#E4E0E0"
+        app:indicator_color="#ff00ff"
+        app:indicator_gravity="left"
+        app:indicator_width="0dp"
+        app:tab_height="50dp"
+        app:tab_mode="scrollable"
+        ></q.rorbin.verticaltablayout.VerticalTabLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:id="@+id/navi_rl"
+        android:layout_height="match_parent"
+        android:layout_toRightOf="@id/navi_tab"></androidx.recyclerview.widget.RecyclerView>
+
+</RelativeLayout>

@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">WanAndroid</string>
+    <string name="text_loading_reload">重新加载</string>
+    <string name="text_loading_loading">正在加载...</string>
+    <string name="text_loading_error">加载失败，请重试。</string>
+    <string name="nv_collect">收藏</string>
+    <string name="nv_todo">TODO</string>
+    <string name="nv_night">夜间模式</string>
+    <string name="nv_setting">设置</string>
+    <string name="nv_about">关于我们</string>
+    <string name="nv_out">退出登陆</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="login_text_username">用户名</string>
+    <string name="login_text_password">密码</string>
+    <string name="login_text_repassword">确认密码</string>
+    <string name="login_text_login_hint">没有账号？去注册</string>
+    <string name="login_text_register_hint">已有账号？去登录</string>
+    <string name="login_text_login">登录</string>
+    <string name="login_text_register">注册</string>
+    <string name="zhiding">置顶</string>
+    <string name="news">新</string>
+    <string name="offical">公众号</string>
+    <string name="jb_setting">基本设置</string>
+</resources>
